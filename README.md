@@ -1,1 +1,1 @@
-# UNIMI-ICPC coding challenge 2022/2023
+# UNIMI-SWERC coding challenge 2022/2023
