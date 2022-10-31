@@ -1,41 +1,73 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>UNIMI-SWERC Coding Challenge</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-        <link rel="icon" type="image/png" href="https://swerc.eu/2022/theme/images/favicon.png">
-    </head>
-    <body class="">
-    <div class="container w-100 h-100 mt-3 mb-3 ms-auto me-auto">
-        <h1>UNIMI-SWERC Coding Challenge</h1>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>UNIMI-SWERC Coding Challenge</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="https://swerc.eu/2022/theme/images/favicon.png">
+  </head>
+  <body class="">
+  <div class="container w-100 h-100 mt-3 mb-3 ms-auto me-auto">
+    <h1 class="border-bottom border-dark pb-2 mb-4">UNIMI-SWERC Coding Challenge</h1>
 
-        <p>
-            UNIMI-SWERC coding challenge è una gara in cui ai partecipanti è richiesto di risolvere 9 problemi di carattere algoritmico.
-            Il vincitore sarà colui che risolve il maggior numero di problemi nel minor tempo possibile.
-        </p>
+    <p>
+      UNIMI-SWERC coding challenge è una gara in cui ai partecipanti è richiesto di risolvere 9 problemi di carattere algoritmico.
+      Il vincitore sarà colui che risolve il maggior numero di problemi nel minor tempo possibile.
+    </p>
 
-        <p>
-            I primi classificati verranno inoltre selezionati per rappresentare l'Università degli Studi di Milano alle <a href="https://swerc.eu/">ICPC SWERC 2023</a>, una competizione di informatica a squadre tra università.
-        </p>
+    <p>
+        I primi classificati verranno inoltre selezionati per rappresentare l'Università degli Studi di Milano alle <a href="https://swerc.eu/">ICPC SWERC 2023</a>, una competizione di informatica a squadre tra università.
+    </p>
 
-        <p>
-            La gara si svolgerà il 21 novembre 2022 alle 14:30 e durerà 3 ore.
-        </p>
+    <p>
+      La gara si svolgerà il 21 novembre 2022 alle 14:30 presso il Dipartimento di Informatica dell'Università degli Studi di Milano in Via Celoria 16.
+      La gara ha una durata di 3 ore.
+    </p>
 
-        <p class="mb-0">
-            Per ulteriori informazioni contattare:
-        </p>
-        <ul>
-            <li><a href="https://t.me/MrBrionix">Fabrizio Brioni</a></li>
-            <li><a href="https://t.me/bortoz">Alessandro Bortolin</a></li>
-        </ul>
+    <p class="mb-0">
+      Per ulteriori informazioni puoi consultare le <a href="#faq">FAQ</a> oppure contattare:
+    </p>
+    <ul>
+      <li><a href="https://t.me/MrBrionix">Fabrizio Brioni</a></li>
+      <li><a href="https://t.me/bortoz">Alessandro Bortolin</a></li>
+    </ul>
 
-        <p>Per partecipare è sufficiente compilare il seguente <a href="https://forms.gle/ZUqEddSPbzXzkdCF6">form</a>.</p>
-        <iframe class="w-100" style="height: 50vh;" src="https://forms.gle/ZUqEddSPbzXzkdCF6"></iframe>
-        
+    <p>
+      Per partecipare è sufficiente compilare il seguente <a href="https://forms.gle/ZUqEddSPbzXzkdCF6">form</a>:
+    </p>
+    <div class="border border-2 rounded rounded-3 overflow-hidden w-100 mb-4" style="height: 45vh;">
+      <iframe class="w-100 h-100" src="https://forms.gle/ZUqEddSPbzXzkdCF6"></iframe>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-    </body>
+
+    <h2 class="mb-3"><a name="faq">FAQ</a></h2>
+
+    <h4>Quali sono i linguaggi consentiti?</h4>
+    <p>
+      I linguaggi consentiti sono C, C++, Python e Java.
+    </p>
+
+    <h4>Come viene valutato il mio programma?</h4>
+    <p>
+      Il tuo programma dovrà leggere da standard input e stampare su standard output. Il codice verrà valutato su un certo numero di casi di input, per ogni caso l'output del tuo programma sarà confrontato con un output di riferimento. Nel caso in cui tutti gli output sono corretti, ti verrà assegnato il punteggio per il problema.
+    </p>
+
+    <h4>Come vengono assegnati i punti?</h4>
+    <p>
+      Ogni problema risolto correttamente assegna 1 punto. A parità di punti viene favorito chi ha la penalità totale minore. La penalità totale è la somma delle penalità di ogni problema risolto. La penalità di un problema è il numero di minuti trascorso dall'inizio della gara per risolvere il problema a cui si sommano 20 minuti per ogni soluzione sbagliata.
+    </p>
+
+    <h4>Quante risorse ha a disposizione il mio programma?</h4>
+    <p>
+      Ogni problema ha un limite di tempo (TL) e un limite di memoria (ML). Se il tempo utilizzato dalla CPU per il tuo programma eccede il limite, la tua soluzione non sarà accettata. Analogamente, il tuo programma non può allocare più memoria di quella consentita.
+    </p>
+
+    <h4>Qual è la piattaforma di gara?</h4>
+    <p>
+      La piattaforma di gara è <a href="https://www.domjudge.org/">DOMjudge</a>, se vuoi familiarizzarci, è dispondibile una <a href="https://www.domjudge.org/demoweb/team">demo</a> accessibile con credenziali <code>team</code>/<code>team</code>. Nella demo <b>non</b> è possibile inviare delle soluzioni.
+    </p>
+    
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
 </html>
